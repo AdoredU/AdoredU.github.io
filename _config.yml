@@ -36,6 +36,10 @@ description: ""
 #     repo: blog
 #     client_id: a6fb73b3e790e234bab8
 #     client_secret: cc10aaff53a03d05ab2ee002dbf401dd7627c7a3
+gitment:
+    repo: blog
+    client_id: 3c969cfaa7a4138adf37
+    client_secret: 8ca700699fec4c272a11deeae79c0cfadedc19d3
 
 # url: "https://adoredu.github.io/blog"
 url: "https://adoredu.github.io"

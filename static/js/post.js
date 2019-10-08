@@ -9,6 +9,7 @@ $(document).ready(function() {
     generateContent();
     // share();
     // gitment();
+    gittalk();
 });
 
 /**
@@ -42,4 +43,16 @@ function generateContent() {
     $("#post-comment").removeClass('hidden');
 }*/
 
+function gettalk() {
+    var gitalk = new Gitalk({
+        clientID: '{{site.gittalk.client_id}}',
+        clientSecret: '{{site.gittalk.client_secret}}',
+        repo: '{{site.gittalk.repo}}',
+        owner: '{{site.github.username}}',
+        admin: ['{{site.github.username}}'],
+        id: location.pathname,      // Ensure uniqueness and length less than 50
+        distractionFreeMode: false  // Facebook-like distraction free mode
+    })
 
+    gitalk.render('gitalk-container')
+}

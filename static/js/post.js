@@ -22,13 +22,13 @@ function generateContent() {
     });
 }
 
-function share(){
+/*function share(){
     window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"1","bdSize":"24"},"share":{}};
     with(document)0[getElementsByTagName("script")[0].parentNode.appendChild(createElement('script')).src='//bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];
-}
+}*/
 
 
-function gitment() {
+/*function gitment() {
     var gitment = new Gitment({
         id: window.location.pathname,
         owner: '{{site.github.username}}',
@@ -40,6 +40,6 @@ function gitment() {
     });
     gitment.render('post-comment')
     $("#post-comment").removeClass('hidden');
-}
+}*/
 
 

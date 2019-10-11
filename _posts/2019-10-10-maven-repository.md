@@ -73,12 +73,12 @@ categories: Java
   <server>
     <id>releases</id>
     <username>admin</username>
-    <password>{{NEXUS PASSWORD}}</password>
+    <password>YOUR NEXUS PASSWORD</password>
   </server>
   <server>
     <id>snapshots</id>
     <username>admin</username>
-    <password>{{NEXUS PASSWORD}}</password>
+    <password>YOUR NEXUS PASSWORD</password>
   </server>
   ...
   ```
@@ -91,11 +91,11 @@ categories: Java
       <repository>
           <!-- 注意id要与server节点一致 -->
           <id>releases</id>
-          <url>http://{{NEXUS IP}}:8081/repository/maven-releases/</url>
+          <url>http://YOUR NEXUS IP:8081/repository/maven-releases/</url>
       </repository>
       <snapshotRepository>
           <id>snapshots</id>
-          <url>http://{{NEXUS IP}:8081/repository/maven-snapshots/</url>
+          <url>http://YOUR NEXUS IP}:8081/repository/maven-snapshots/</url>
       </snapshotRepository>
   </distributionManagement>
   ...
@@ -112,7 +112,7 @@ categories: Java
   <server>
     <id>public</id>
     <username>admin</username>
-    <password>{{NEXUS PASSWORD}}</password>
+    <password>YOUR NEXUS PASSWORD</password>
   </server>
   ...
   ```
@@ -128,7 +128,7 @@ categories: Java
         <!-- 仓库的id，repositories可以配置多个仓库，保证id不重复 -->
         <id>public</id>
         <!-- 仓库地址，即nexus仓库组的地址 -->
-        <url>http://{{NEXUS IP}}:8081/repository/maven-public/</url>
+        <url>http://YOUR NEXUS IP:8081/repository/maven-public/</url>
         <!-- 是否下载releases构件 -->
         <releases>
           <enabled>true</enabled>
@@ -145,7 +145,7 @@ categories: Java
         <!-- 插件仓库的id不允许重复，否则后面的会覆盖前面的 -->
         <id>public</id>
         <name>Public Repositories</name>
-        <url>http://{{NEXUS IP}}:8081/repository/maven-public/</url>
+        <url>http://YOUR NEXUS IP:8081/repository/maven-public/</url>
       </pluginRepository>
     </pluginRepositori
   </profile>

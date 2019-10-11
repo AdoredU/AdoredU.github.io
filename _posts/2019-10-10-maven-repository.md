@@ -7,6 +7,7 @@ categories: Java
 
 * TOC
 {:toc}
+
 ## 0. 介质
 
 - ubuntu版本：ubuntu-16.04.6-desktop-amd64；

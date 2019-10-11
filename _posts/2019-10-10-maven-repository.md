@@ -19,7 +19,7 @@ categories: Java
 
 - `tar -zxvf nexus-3.19.1-01-unix.tar.gz `解压：
 
-  ![image-20191010184115821](/Users/gp/Desktop/github_projects/AdoredU.github.io/_posts/assets/image-20191010184115821.png)
+  ![image-20191010184115821](https://adoredu.github.io/static/img/maven/image-20191010184115821.png)
 
   ```
   - nexus-3.19.1-01：nexus主目录，包括bin目录；
@@ -32,7 +32,7 @@ categories: Java
 
 - `./nexus`
 
-  ![image-20191010184857350](/Users/gp/Desktop/github_projects/AdoredU.github.io/_posts/assets/image-20191010184857350.png)
+  ![image-20191010184857350](https://adoredu.github.io/static/img/maven/image-20191010184857350.png)
 
   可以看到，启动、停止、重启等命令；
 
@@ -42,13 +42,13 @@ categories: Java
 
 - 访问：nexus默认端口为8081，在本地输入虚拟机地址或者直接在虚拟机输入`http://localhost:8081`即可访问nexus（启动页很酷）：
 
-  ![image-20191010185318816](/Users/gp/Desktop/github_projects/AdoredU.github.io/_posts/assets/image-20191010185318816.png)
+  ![image-20191010185318816](https://adoredu.github.io/static/img/maven/image-20191010185318816.png)
 
 ## 3. 登录
 
 - 点击右上角Sigh in，弹框：
 
-  ![image-20191010185648413](/Users/gp/Desktop/github_projects/AdoredU.github.io/_posts/assets/image-20191010185648413.png)
+  ![image-20191010185648413](https://adoredu.github.io/static/img/maven/image-20191010185648413.png)
 
 - 根据提示打开`/home/gp/software/sonatype-work/nexus3/admin.password`，复制里面内容（初始密码）；
 
@@ -58,7 +58,7 @@ categories: Java
 
 ## 4. 仓库
 
-![image-20191011112604146](/Users/gp/Desktop/github_projects/AdoredU.github.io/_posts/assets/image-20191011112604146.png)
+![image-20191011112604146](https://adoredu.github.io/static/img/maven/image-20191011112604146.png)
 
 - 组仓库默认包含`maven-releases`和`maven snapshots`，以及`maven-central`，这样在依赖Jar包时既可以优先从私服下载，也可以从中央仓库下载；
 - 组仓库包含仓库可以在设置中设置；

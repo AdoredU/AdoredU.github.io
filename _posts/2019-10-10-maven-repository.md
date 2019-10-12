@@ -138,7 +138,7 @@ categories: Java
           <enabled>true</enabled>
         </snapshots>
       </repository>
-    </repositori
+    </repositories>
     <pluginRepositories>
       <!-- 插件仓库，maven运行依赖插件，也需要从私服下载 -->
       <pluginRepository>
@@ -147,7 +147,7 @@ categories: Java
         <name>Public Repositories</name>
         <url>http://YOUR NEXUS IP:8081/repository/maven-public/</url>
       </pluginRepository>
-    </pluginRepositori
+    </pluginRepositories>
   </profile>
   ```
 

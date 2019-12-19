@@ -6,3 +6,4 @@ _site
 Cache
 .jekyll-cache
 assets
+.DS_Store

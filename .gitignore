@@ -4,3 +4,4 @@ _site
 .local
 .local/*
 Cache
+.jekyll-cache

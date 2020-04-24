@@ -55,4 +55,4 @@ imgrepo: "https://adoredu.github.io/static/img"
 #imgrepo: "http://127.0.0.1:4000/static/img"
 
 
-theme: jekyll-theme-time-machine
+theme: jekyll-theme-cayman

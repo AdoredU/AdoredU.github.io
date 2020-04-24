@@ -40,7 +40,7 @@ if __name__ == '__main__':
 
 ### JDBC模板
 
-```JAVA
+```java
 import java.sql.*;
 
 public class TestJDBC {

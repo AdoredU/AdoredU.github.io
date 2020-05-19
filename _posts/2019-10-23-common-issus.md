@@ -24,3 +24,8 @@ categories: 问题记录
 ### 2. MAC使用VMware Fusion安装虚拟机时间同步
 
 - 设置 —> 高级 —> 勾选"同步时间"。
+
+### 3. IDEA生成序列号设置
+
+![image-20200519163930191](https://adoredu.github.io/static/img/issus/image-20200519163930191.png)
+

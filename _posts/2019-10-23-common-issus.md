@@ -29,3 +29,6 @@ categories: 问题记录
 
 ![image-20200519163930191](https://adoredu.github.io/static/img/issus/image-20200519163930191.png)
 
+### 4. Mac睡眠重启时点击WIFI卡死问题
+
+打开终端，输入`sudo killall airportd`即可。

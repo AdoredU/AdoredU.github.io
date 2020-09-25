@@ -2,7 +2,7 @@
 layout: post
 title: axure9使用axure cloud完成团队协作
 tags: axure9 cloud 团队协作
-categaries: 原型设计
+categaries: Axure
 ---
 
 * TOC

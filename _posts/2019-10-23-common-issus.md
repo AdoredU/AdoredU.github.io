@@ -2,7 +2,7 @@
 layout: post
 title: 常见问题记录
 tags: 常见问题
-categories: 问题记录
+categories: IssueRecords
 ---
 
 ### 1. linux运行idea报错
